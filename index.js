@@ -7,7 +7,7 @@ var path = require('path');
 
 var MongoClient = require('mongodb').MongoClient;
 
-var databaseUri = 'mongodb://c040120:liziqi1992@ds121321.mlab.com:21321/heroku_l0h5htvb'
+var databaseUri = 'mongodb://c040120:liziqi1992@cluster0-shard-00-00.n0zry.mongodb.net:27017,cluster0-shard-00-01.n0zry.mongodb.net:27017,cluster0-shard-00-02.n0zry.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-mrmyxq-shard-0&authSource=admin&retryWrites=true&w=majority'
 
 if (!databaseUri) {
   console.log('DATABASE_URI not specified, falling back to localhost.');
